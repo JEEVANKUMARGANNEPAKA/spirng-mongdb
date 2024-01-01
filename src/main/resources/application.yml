@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  output:
+    ansi:
+      enabled: always
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: YourEntity
+      uri: mongodb://localhost:27017/YourEntity
+
+
