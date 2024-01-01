@@ -13,7 +13,6 @@ public class UserService {
     private final UserRepository repository;
 
     public YourEntity createUser(YourEntity yourEntity){
-        log.info("starting User save to database........!");
         YourEntity entity= repository.save(yourEntity);
         return yourEntity;
 
